@@ -18,16 +18,41 @@
             {
                -moz-box-flexgroup: inherit;
             }
+            footer {
+  width: 100%;
+  background-color: lightgray;
+  padding: 0.3em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5em;
+}
+
+footer p {
+  color: #606060;
+}
+#feature{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0 0 10px 0;
+  font-size: medium;
+}
         </style>
     </head>
-    <body bgcolor="antiquewhite">
+    <body bgcolor ="antiquewhite">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <nav class="large_menu" id="navbar">
 <header>
-<span class="list_title"><h1>overview of HTML tips</h1></span>
-<ul><li><a href="#introduction" class="nav-link"> HTML introduction</a></li>
-<li><a href="#requirement" class="nav-link"> HTML REQUIREMENTS</a></li>
-<li><a href="#vocabulary" class="nav-link"> HTML vocabulary</a></li>
-<li><a href="#REFERENCE" class="nav-link"> HTML REFERENCE</a></li>
+ <span class="list_title"><h1>overview of HTML tips</h1></span>
+<ul><li><a href="#introduction" class="nav-link"><h3>HTML introduction</h3></a></li>
+<li><a href="#requirement" class="nav-link"> <h3>HTML REQUIREMENTS</h3></a></li>
+<li><a href="#vocabulary" class="nav-link"><h3> HTML vocabulary</h3></a></li>
+<li><a href="#REFERENCE" class="nav-link"><h3> HTML REFERENCE</h3></a></li>
 </ul>
 </header>
 </nav>
@@ -35,14 +60,22 @@
     <section class="main-section" id="introduction">
         <header><h1>HTML Introduction</h1></header>
         <article>
-            <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-            Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by 
-            denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as "img " and "input" directly introduce content into the page. Other tags such as "p"
-            surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
-            HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C),
+            <h3>
+            <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.<br>
+             It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.<br>
+            Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.<br>
+             HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br>
+            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive<br>
+            forms may be embedded into the rendered page. HTML provides a means to create structured documents by <br>
+            denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated<br>
+             by tags, written using angle brackets. Tags such as "img " and "input" directly introduce content into the page. Other tags such as "p"<br>
+            surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags,<br>
+             but use them to interpret the content of the page.</p>
+        <p> HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages.<br>
+            Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C),<br>
             former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.</p>
             <a href="https://en.wikipedia.org/wiki/HTML">wikipedia</a></p>
+          </h3>
         </article>
     </section>
     <section class="main-section" id="requirement">
@@ -65,6 +98,12 @@
         <header><h2>HTML REFERENCE</h2></header>
         <span class="author">REFER FOLLOWING SITE TO LEARN MORE<a href="https://www.w3schools.com/html/html_intro.asp">w3schools HTML BASICS</a></span>
     </section>
+    <footer id="feature">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="https://github.com/Abdulsaleem21">Contact</a>
+        <p>Copyright 2002,</p>
+      </footer>
     </main>
     </body>
     </html>
